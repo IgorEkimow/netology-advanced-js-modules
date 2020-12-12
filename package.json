@@ -1,0 +1,40 @@
+{
+  "name": "ajs-modules",
+  "version": "1.0.0",
+  "description": "Netology AJS - modules",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgorEkimow/netology-advanced-js-modules.git"
+  },
+  "author": "Igor Ekimow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IgorEkimow/netology-advanced-js-modules/issues"
+  },
+  "homepage": "https://github.com/IgorEkimow/netology-advanced-js-modules#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.10",
+    "css-loader": "^5.0.1",
+    "eslint": "^7.15.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "html-loader": "^1.3.2",
+    "html-webpack-plugin": "^4.5.0",
+    "mini-css-extract-plugin": "^1.3.3",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "babel-loader": "^8.0.0-beta.0",
+    "core-js": "^3.8.1"
+  }
+}
