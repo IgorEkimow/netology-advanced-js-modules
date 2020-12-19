@@ -7,14 +7,13 @@ class Game {
     }
 }
 
-class GameSavingData {
+export class GameSavingData {
 }
 
-function readGameSaving() {
+export function readGameSaving() {
 }
 
-function writeGameSaving() {
+export function writeGameSaving() {
 }
 
 export default Game;
-module.exports = {GameSavingData, readGameSaving, writeGameSaving};
